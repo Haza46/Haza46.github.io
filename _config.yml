@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Harry's Fast AI blog
-description: In this blog I will post about my learnings throughout the Fast AI course
+title: Harry's blog
+description: In this blog I will post about my learnings about computer vision, AI, machine learning and quantum computing
 github_username: Haza46
 
 # Email and twitter are optional:
