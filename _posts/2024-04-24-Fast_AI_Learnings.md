@@ -1,3 +1,12 @@
-# Fast AI Learnings
+### Fast AI Learnings
 
 Welcome to my blog on the Fast AI course. In here I will post my learnings as I go through the course.
+
+As an introduction, the FastAI course is taught by Jeremy Howard - a highly experienced Australian computer scientist and one of the cofounders of FastAI. This course provides a highly hands on approach to deep learning, providing a plethora of theoretical concepts paired with implementation through their FastAI python library. Having only just scraped the surface of this course, this blog post will be primarily touching on the part 1 topics introduced.
+
+### Neural Net Foundations
+
+After walking through the required setup to cover the course in the *'Deployment'* section (I am using a slightly different setup harnessing docker instead of purely python and WSL), Jeremy begins to explore the foundations of `neural networks`. Fundamentally, a neural netowrk is a computing model capable of learning complex patterns and relationships for a provided set of data. A neural network can perform a variety of tasks, based on what it is designed to do. Initially, we will be focusing on classifiation - which is the application of a neural network to sorting input data (in this case images) into different catagories or classes based on the image 'content'. How this is done is that the neural network will be fed a large database of images which are presorted into classes. 
+
+[Example image set.](/images/image_set_example.png)
+
