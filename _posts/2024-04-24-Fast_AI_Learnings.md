@@ -13,3 +13,15 @@ After walking through the required setup to cover the course in the *'Deployment
 Now, when we are training our image models there are a number of different mathematical models that can be used. These image models come in a variety of different forms, represented by differening mathematical models, however we are primarily concerned with: how fast they are, how much memory they use, and how accurate they are for our application. Below shows a comparison of a variety of different training models **Jeremy** explored, where the y-axis represents the accuracy of the model and the x-axis represents the speed of the model (in seconds / sample)
 
 ![Training model speed](/images/newplot.png)
+
+Ideally, you would want to select a model closest to the top left hand side of the of the chart - representing a fast (low time cost / sample) and highly accurate model. Changing between these models in Python can be very easy if you simply import the `PyTorch Image Models (timm)` library we can simply run:
+
+```
+timm.list_models('resnet*')
+```
+in order to bring up a list of the possible resnet models that can be used (simply replace this with another model name to search for other models), followed by passing this into our vision learner via:
+
+```
+learn = vision_learner(dls, 'resnet18', metrics=error_rate).to_fp16()
+```
+to specify the model to be used within the learner. 
