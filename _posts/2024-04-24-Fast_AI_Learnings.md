@@ -4,7 +4,7 @@ Welcome to my blog on the Fast AI course. In here I will post my learnings as I 
 
 As an introduction, the FastAI course is taught by **Jeremy Howard** - a highly experienced Australian computer scientist and one of the cofounders of FastAI. This course provides a highly hands on approach to deep learning, providing a plethora of theoretical concepts paired with implementation through their FastAI python library. Having only just scraped the surface of this course, this blog post will be primarily touching on the the 3rd lesson explored.
 
-### Neural Net Foundations
+## Neural Net Foundations
 
 The objective of the neural net foundations lesson is to give the student an introduction into creating a dataset, passing the dataset into a training model, and evaluating the performance of the model. This is a very solid introduction into the fundamentals of machine learning.
 
